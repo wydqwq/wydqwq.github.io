@@ -32,4 +32,14 @@ key: page-about
 
 我会在这里发一些我的游记和自认为比较好的题解，也有可能发一些关于 whk 的小文章。
 
+当然，如果你发现了 BUG，欢迎来[洛谷](https://www.luogu.com.cn/user/1392937)私信我或向这个[网页](https://github.com/wydqwq/wydqwq.github.io)提交 issue，我会积极修复的。
+
 总之这还是一个比较青涩的网站，希望大家多多包涵啦。
+
+<!--more-->
+
+友链：
+
+[奏泠天空の小站](http://zouling.top)
+
+[Sean's blog](https://zouling.top)
