@@ -28,11 +28,9 @@ key: page-about
 
 你好！我叫幻琳（HuanL,wydqwq），是来自 GD 的一名普通 OIer。
 
-此网站搭建于 $2026.3.14$，这是我基于 Github Pages 和 [jekyll-TeXt-theme](https://kitian616.github.io/jekyll-TeXt-theme/test/) 搭建的一个博客，如果你觉得很棒，不妨给这个项目点一个 Star。
+此网站搭建于 $2026.3.14$，基于 Github Pages 和 [jekyll-TeXt-theme](https://kitian616.github.io/jekyll-TeXt-theme/test/) 搭建。
 
 我会在这里发一些我的游记和自认为比较好的题解，也有可能发一些关于 whk 的小文章。
-
-当然，如果你发现了 BUG，欢迎来[洛谷](https://www.luogu.com.cn/user/1392937)私信我或向这个[网页](https://github.com/wydqwq/wydqwq.github.io)提交 issue，我会积极修复的。
 
 总之这还是一个比较青涩的网站，希望大家多多包涵啦。
 
