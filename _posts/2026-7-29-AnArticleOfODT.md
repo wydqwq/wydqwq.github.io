@@ -26,4 +26,20 @@ map<int, int>::iterator split(int x) {//std::map 的第二关键字（此处为 
 		return it;
 	return m.emplace(x, it->second).first;//由于获取 it 这个区间的 r 需要访问它的下一个指针，所以可以直接将 x 加入 std::map 中
 }
+//此处返回的指针就是 [x, r] 的指针，便于进行操作
+```
+
+## assign（推平）
+
+传入区间下标 $l, r$ 与推平的数值 $v$，进行区间推平操作。
+
+```
+//注意到以 assign 为函数名可能与 c++ 中自带的函数冲突，所以建议使用其他函数名
+void assign(int l, int r, int v) {
+	auto itr = split(r + 1), itl = split(l);//分裂区间，使 [l, r] 在 std::map 上有完全对应的区间，这里传入 r + 1 是因为我们需要访问分裂后返回的前一个区间，保证它的右端点为 r
+  //此处 itl 与 itr 的分裂顺序似乎会对迭代器有影响，详情见 oi-wiki
+	while (itl != itr)
+		itl = m.erase(itl);//删除
+	m[l] = v;//推平成新的值
+}
 ```
